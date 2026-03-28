@@ -1,0 +1,13 @@
+name,age,salary,department,years_experience
+Alice,29,72000,Engineering,5
+Bob,34,85000,Engineering,8
+Carol,27,61000,Marketing,3
+David,45,95000,Engineering,15
+Eve,31,68000,Marketing,6
+Frank,28,55000,Sales,2
+Grace,39,88000,Engineering,12
+Henry,52,102000,Management,20
+Iris,26,59000,Sales,1
+Jack,33,77000,Marketing,7
+,41,81000,Engineering,10
+Alice,29,,Marketing,5
