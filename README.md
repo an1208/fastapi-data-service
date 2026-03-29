@@ -237,22 +237,6 @@ If any test fails, the badge turns red and the push is flagged — preventing br
 
 ---
 
-## Relevance to data engineering roles
-
-This project directly maps to responsibilities found in data platform and ML engineering roles:
-
-**Data ingestion** — The `/analyse` endpoint accepts raw CSV uploads and processes them programmatically, mirroring how vehicle telemetry or software event data is ingested into a data platform.
-
-**Pipeline design** — The processing chain (receive → validate → parse → transform → structure → return) follows the same pattern as production ETL pipelines, just compressed into a single service for demonstration.
-
-**Data quality monitoring** — Null detection, completeness percentage, and type inference are standard checks run on every batch in production data systems to catch upstream data issues before they propagate.
-
-**Backend API development** — FastAPI with proper HTTP status codes, input validation, and structured error messages follows REST API design best practices used in production backend services.
-
-**Automated testing and CI/CD** — The pytest suite and GitHub Actions workflow ensure every change is verified before merging — a standard practice in professional engineering teams.
-
----
-
 ## Limitations and next steps
 
 **Current limitations:**
